@@ -35,18 +35,18 @@
                     <!-- since github pages only allow static pages, I am using this form :https://formspree.io,  free up to 50 submissions, if dynamic hosting is 
                         possible in the future index.php should be further developped-->
                     <!-- form action ="index.php" method="get"-->
-                    <!--form action ="https://formspree.io/f/xjvzdlqy"-->
-                        <form action="https://formspree.io/f/xjvzdlqy"><input type="email" name="_replyto" placeholder="Enter email address..." aria-label="Enter email address..." ><textarea   name="body"></textarea><input type="submit" value="Send"></form>
-                        <!-- <!-- Email address input-->
+                    <form action="https://formspree.io/f/xjvzdlqy" method="POST">
                         <div class="row input-group-newsletter">
-                            <div class="col"><input name="email" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." /></div>
-                            <div class="col-auto"><button id="submitButton" type="submit">Submit</button></div>
+                            <div class="col"><input name="_replyto" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." /></div>
+                            <div class="col-auto"><button id="submitButton" type="submit" value="Send">Submit</button></div>
                         </div>
+                    </form>
+                        <!-- Email address input-->
                         <!-- Submit success message-->
                         <!---->
                         <!-- This is what your users will see when the form-->
                         <!-- has successfully submitted-->
-                    </form>  -->
+                
                 </div>
             </div>
         </div>
